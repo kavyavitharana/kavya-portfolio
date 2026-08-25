@@ -861,3 +861,80 @@ footer {
         gap: 12px;
     }
 }
+/* ================================
+   CREATIVE WORK
+================================ */
+
+.creative-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.creative-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(167, 139, 250, 0.18);
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.creative-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(167, 139, 250, 0.55);
+}
+
+.creative-image {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    background: #101119;
+}
+
+.creative-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.creative-card:hover .creative-image img {
+    transform: scale(1.04);
+}
+
+.creative-info {
+    padding: 22px 24px 25px;
+}
+
+.creative-info span {
+    font-size: 11px;
+    letter-spacing: 2px;
+    opacity: 0.55;
+}
+
+.creative-info h3 {
+    margin: 8px 0 6px;
+    font-size: 22px;
+}
+
+.creative-info p {
+    margin: 0;
+    opacity: 0.65;
+    line-height: 1.6;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .creative-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .creative-image {
+        height: 320px;
+    }
+
+}
