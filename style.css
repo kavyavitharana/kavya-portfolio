@@ -937,3 +937,21 @@ footer {
     }
 
 }
+/* Additional Education */
+
+.education-extra {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(167, 139, 250, 0.18);
+}
+
+.education-extra h4 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.education-extra p {
+    margin: 0;
+    opacity: 0.6;
+}
