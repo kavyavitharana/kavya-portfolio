@@ -887,15 +887,14 @@ footer {
 
 .creative-image {
     width: 100%;
-    height: 360px;
+    height: 280px;
     overflow: hidden;
     background: #101119;
 }
-
 .creative-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
     transition: transform 0.4s ease;
 }
@@ -934,7 +933,7 @@ footer {
     }
 
     .creative-image {
-        height: 320px;
+       height: 240px;
     }
 
 }
