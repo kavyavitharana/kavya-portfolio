@@ -285,11 +285,10 @@ header {
 }
 
 .profile-circle img {
-    width: 100%;
-    height: 100%;
+    width: 78%;
+    height: 78%;
     object-fit: contain;
     display: block;
-    padding: 12px;
 }
 
 .circle {
