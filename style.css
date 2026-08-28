@@ -1032,3 +1032,10 @@ footer {
     font-size: 16px;
     line-height: 1.7;
 }
+/* Creative Work Intro */
+#creative > .large-text {
+    font-size: 17px;
+    max-width: 750px;
+    color: #777b88;
+    line-height: 1.7;
+}
