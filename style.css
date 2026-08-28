@@ -861,6 +861,23 @@ footer {
         gap: 12px;
     }
 }
+@media (max-width: 650px) {
+
+    .achievement-item {
+        grid-template-columns: 40px 1fr;
+        gap: 12px;
+        padding: 22px 0;
+    }
+
+    .achievement-item h3 {
+        font-size: 18px;
+    }
+
+    .achievement-item p {
+        font-size: 13px;
+    }
+
+}
 /* ================================
    CREATIVE WORK
 ================================ */
@@ -954,4 +971,64 @@ footer {
 .education-extra p {
     margin: 0;
     opacity: 0.6;
+}
+/* =========================================================
+   ACHIEVEMENTS — POLISHED
+   ========================================================= */
+
+.achievement-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.achievement-item {
+    display: grid;
+    grid-template-columns: 55px 1fr;
+    gap: 20px;
+
+    padding: 28px 0;
+
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+
+    transition: 0.3s ease;
+}
+
+.achievement-item:first-child {
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.achievement-item:hover {
+    padding-left: 8px;
+}
+
+.achievement-number {
+    color: #a78bfa;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-top: 3px;
+}
+
+.achievement-item h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.achievement-item p {
+    margin-top: 9px;
+    padding: 0;
+    border-bottom: none;
+
+    color: #777b88;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.achievement-intro {
+    max-width: 500px;
+    margin-top: 25px;
+    color: #777b88;
+    font-size: 16px;
+    line-height: 1.7;
 }
